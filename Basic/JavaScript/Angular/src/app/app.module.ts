@@ -8,9 +8,9 @@ import { SdsRestService } from './sds.rest.service';
 import { AuthHttp } from './adal/authHttp.service';
 import { DatasrcComponent } from './datasrc/datasrc.component';
 import { routing, appRoutingProviders  } from './app.routing';
-import {HttpClientModule, HTTP_INTERCEPTORS} from "@angular/common/http";
-import {AuthInterceptor} from "./adal/authInterceptor";
-import {OptionInterceptor} from "./adal/optionInterceptor";
+import {HttpClientModule, HTTP_INTERCEPTORS} from '@angular/common/http';
+import {AuthInterceptor} from './adal/authInterceptor';
+import {OptionInterceptor} from './adal/optionInterceptor';
 
 @NgModule({
   declarations: [
